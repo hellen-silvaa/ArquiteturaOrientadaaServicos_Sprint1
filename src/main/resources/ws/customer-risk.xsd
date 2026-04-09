@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="http://challenge.sprint1.com.br/soap/customer-risk"
+           xmlns:tns="http://challenge.sprint1.com.br/soap/customer-risk"
+           elementFormDefault="qualified">
+
+    <xs:element name="CustomerRiskRequest">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="customerId" type="xs:long"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="CustomerRiskResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="customerId" type="xs:long"/>
+                <xs:element name="customerName" type="xs:string"/>
+                <xs:element name="score" type="xs:int"/>
+                <xs:element name="riskLevel" type="xs:string"/>
+                <xs:element name="summary" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
+
