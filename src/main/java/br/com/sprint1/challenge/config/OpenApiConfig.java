@@ -18,7 +18,7 @@ public class OpenApiConfig {
                         .description("API REST da sprint de Arquitetura Orientada a Serviços e Web Services.")
                         .version("v1")
                         .contact(new Contact().name("Equipe Challenge FIAP Next"))
-                        .license(new License().name("Uso acadêmico")));
+                        .license(new License().name("nosso")));
     }
 }
 
