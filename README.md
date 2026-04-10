@@ -1,6 +1,7 @@
 # Arquitetura Orientada a Servicos - Sprint 1
 
-Backend Spring Boot (Java 21) com REST + SOAP.
+Backend Spring Boot (Java 21) com REST 
+
 
 ## Execucao
 
